@@ -1,41 +1,98 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
+
+  <meta charset="UTF-8">
+  <title>橙爱自由</title>
+  <meta name="author" content="Orange">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  网页logo-->
+  <link rel="shortcut icon" href="img/LOGO.jpg" type="image/x-icon">
+  <!--网页logo-->
+  <link rel="stylesheet" href="css/center.css">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+    }
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    h1 {
+      font-size: 36px;
+      color: orange;
+    }
 
-  <meta name="theme-color" content="#fafafa">
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      background-color: orange;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkorange;
+    }
+
+    #home {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+
 </head>
-
 <body>
+<div id="home">
+  <header>
+    <h1><span style="color: orange">Orange Love Free,LLC</span></h1>
+  </header>
+<!--  用CSS 美化一下网页横目录-->
+  <div class="top">
+    <a href="index.html">首页</a>
+    <a href="about.html">关于公司</a>
+    <a href="contact.html">联系我们</a>
+    <a href="join.html">加入我们</a>
+    <a href="news.html">新闻中心</a>
+    <a href="product.html">产品中心</a>
+    <a href="service.html">服务中心</a>
+    <a href="https://www.i-free.link">官方网站</a>
+  </div>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+</div>
+<!--图片-->
+<div style="text-align: center;line-height: 1.5;">
+  <img src="img/LOGO.jpg" alt="橙爱自由有限责任公司" width="300" height="300">
+</div>
+<div style="text-align: center;line-height: 1.5;">
+  <p>甜美的橙色，是初见的羞涩<br>激昂的爱心，是相守的永恒<br>自由的鸟儿，在橙色的天空中翱翔<br>责任的风，吹过每一片橙色的田野<br>让我们携手，橙爱自由责任有限公司<br>访问我们的官方网站，了解更多关于我们的信息：<a href="http://www.i-free.link" >www.i-free.link</a> <br>向着幸福的远方，前行不止，爱无止境</p>
+</div>
+<!-- 按钮居中 -->
+<div style="display: flex; justify-content: center;">
+  <button type="button" onclick="redirectToExample()">点我了解更多关于我们的信息!</button>
+  <script src="js/aboutllc.js"></script>
+</div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<footer>
+  <p>&copy; 2023 Orange Love Free,LLC. All rights reserved.</p>
+</footer>
 </body>
-
 </html>

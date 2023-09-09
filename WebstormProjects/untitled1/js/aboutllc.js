@@ -1,3 +1,3 @@
 function redirectToExample() {
-  window.location.href = "../about.html";
+  window.location.href = "/untitled1/about.html";
 }
