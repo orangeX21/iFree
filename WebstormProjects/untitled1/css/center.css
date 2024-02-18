@@ -1,9 +1,0 @@
-.line-numbers {
-  display: flex;
-  align-items: center;
-  /*justify-content: center;*/
-}
-
-.line-numbers p {
-  text-align: center;
-}
