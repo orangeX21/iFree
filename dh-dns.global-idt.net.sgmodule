@@ -1,0 +1,5 @@
+#!name=dh-dns.global-idt.net-DoH-RESERVE
+#!desc=Private DNS.
+
+[General]
+doh-server = https://dh-dns.global-idt.net/dns-query
