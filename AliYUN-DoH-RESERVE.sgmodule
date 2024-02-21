@@ -1,0 +1,5 @@
+#!name=DH-DoH-RESERVE
+#!desc=Private DNS.
+
+[General]
+doh-server = https://162.14.132.109/dns-query
