@@ -2,5 +2,4 @@
 #!desc=Private DNS.
 
 [General]
-doh-server = https://147857.alidns.com/dns-query
-doh-server = https://dh-dns.global-idt.net/dns-query
+doh-server = https://147857.alidns.com/dns-query,https://dh-dns.global-idt.net/dns-query
