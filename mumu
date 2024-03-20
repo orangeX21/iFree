@@ -1,1 +1,19 @@
-{"code":0,"msg":"ok","data":{"user_id":"aebglm3vhaaaacff","nickname":"托尔斯泰","member_expired_at":0,"member_status":1,"enabled_device_count":1,"current_device_status":1,"current_device":{"device_id":"aeawlm3va4aaacho","alias":"MacBook Air","last_binded_at":1710946345,"trial_end_at":1734875974,"trial_status":1}}}
+{
+    "code": 0,
+    "msg": "ok",
+    "data": {
+        "user_id": "aebglm3vhaaaacff",
+        "nickname": "托尔斯泰",
+        "member_expired_at": 0,
+        "member_status": 1,
+        "enabled_device_count": 5,
+        "current_device_status": 1,
+        "current_device": {
+            "device_id": "aeawlm3va4aaacho",
+            "alias": "MacBook Air",
+            "last_binded_at": 1710946345,
+            "trial_end_at": 1734875974,
+            "trial_status": 1
+        }
+    }
+}
