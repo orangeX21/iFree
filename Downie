@@ -39,7 +39,7 @@
     "payment_url": "https://pay.paddle.com/checkout/framework/583749",
     "trial": {
       "text": "Thanks for downloading a trial of Downie 4! We hope you enjoy it.",
-      "duration": 14
+      "duration": 10
     },
     "type": "sdk-product",
     "vendor_name": "Charlie Monroe Software"
