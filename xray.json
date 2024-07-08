@@ -1,0 +1,33 @@
+
+	{
+		"log" : {
+			"loglevel": "none"
+		},
+		"inbounds": [{
+			"port": "8090",
+			"protocol": "vmess",
+			"settings": {
+				"udp": true,
+				"clients": [{
+					"id": "ad0fffbe-3bae-45be-88b9-671915ede5d6",
+					"flow": "",
+					"level": 0,
+					"alterId": 0
+				}],
+				"decryption": "none"
+			},
+			"streamSettings": {
+				"sockopt": {
+					"tcpFastOpen": true
+				},
+				"network": "ws",
+				"wsSettings": {
+					"path": "/"
+				}
+			}
+		}],
+		"outbounds": [{
+			"protocol": "freedom"
+		}]
+	}
+	
