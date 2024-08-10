@@ -1,4 +1,6 @@
 #!name=AliYUN-DoH-RESERVE-bate
 #!desc=Private DNS.
+
 [General]
-doh-server = https://dh-dns.global-idt.net/dns-query,https://147857.alidns.com/dns-query
+dns-server = 1.1.1.1,1.0.0.1,223.5.5.5,101.6.6.6
+doh-server = https://dh-dns.global-idt.net/dns-query,https://hk-hkg.doh.sb/dns-query,https://cloudflare-dns.com/dns-query,https://dns.google/dns-query,https://147857.alidns.com/dns-query
