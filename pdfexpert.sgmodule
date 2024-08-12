@@ -6,4 +6,3 @@ Documents = type=http-request, pattern=https://license.pdfexpert.com/api/2.0/doc
 
 [MITM]
 hostname = %APPEND% *.pdfexpert.com
-
