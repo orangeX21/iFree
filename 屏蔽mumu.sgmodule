@@ -1,0 +1,5 @@
+#!name=屏蔽mumu.nie.netease.com
+#!desc=屏蔽特定域名的访问。
+
+[Rule]
+DOMAIN, mumu.nie.netease.com, REJECT
