@@ -1,0 +1,12 @@
+#!name=BiLiBiLiBVIPCrack
+#!desc=BiLiBiLiBVIPCrack
+
+[Script]
+# > 哔哩哔哩会员限定版
+BiLiBiLiBVIPCrack = type=http-request, pattern="^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili\.\w{3,9}\..+\/(View|Play(URL|View(Unite)?|Conf|erOnline)|MainList|ViewProgress)$", script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/BiLiBiLiBVIPCrack.js, timeout=60
+
+# > 哔哩哔哩魔改
+bili_info = type=http-response, pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*, script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/bili_info.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% app.bilibili.com, api.bilibili.com, 124.239.240.*, 120.192.82.*, 101.89.57.*, 218.94.210.*, 218.60.18.*, 240e:b1:9801:206:11:0:0:*
