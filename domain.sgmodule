@@ -1,51 +1,9 @@
 #!name=屏蔽特定域名的访问。
 #!desc=屏蔽特定域名的访问。
 
+
 [Rule]
-BLOCK, tcp://101.32.72.254, 
-BLOCK, tcp://45.56.98.223, 
-BLOCK, tcp://121.40.235.65, 
-BLOCK, tcp://185.107.56.192, 
-BLOCK, tcp://185.107.56.54, 
-BLOCK, tcp://185.107.56.53, 
-BLOCK, tcp://74.63.241.25, 
-BLOCK, tcp://74.63.241.19, 
-BLOCK, tcp://199.115.116.216, 
-BLOCK, tcp://82.192.82.228, 
-BLOCK, tcp://82.192.82.226, 
-BLOCK, tcp://207.244.65.58, 
-BLOCK, tcp://69.162.95.4, 
-BLOCK, tcp://69.162.95.3, 
-BLOCK, tcp://37.48.65.155, 
-BLOCK, tcp://37.48.65.145, 
-BLOCK, tcp://37.48.65.153, 
-BLOCK, tcp://47.76.185.223, 
-BLOCK, tcp://3.33.243.145, 
-BLOCK, tcp://15.197.204.56, 
-BLOCK, tcp://162.210.199.85, 
-BLOCK, tcp://162.210.196.168, 
-BLOCK, udp://101.32.72.254, 
-BLOCK, udp://45.56.98.223, 
-BLOCK, udp://121.40.235.65, 
-BLOCK, udp://185.107.56.192, 
-BLOCK, udp://185.107.56.54, 
-BLOCK, udp://185.107.56.53, 
-BLOCK, udp://74.63.241.25, 
-BLOCK, udp://74.63.241.19, 
-BLOCK, udp://199.115.116.216, 
-BLOCK, udp://82.192.82.228, 
-BLOCK, udp://82.192.82.226, 
-BLOCK, udp://207.244.65.58, 
-BLOCK, udp://69.162.95.4, 
-BLOCK, udp://69.162.95.3, 
-BLOCK, udp://37.48.65.155, 
-BLOCK, udp://37.48.65.145, 
-BLOCK, udp://37.48.65.153, 
-BLOCK, udp://47.76.185.223, 
-BLOCK, udp://3.33.243.145, 
-BLOCK, udp://15.197.204.56, 
-BLOCK, udp://162.210.199.85, 
-BLOCK, udp://162.210.196.168, 
+DOMAIN, mumu.nie.netease.com, REJECT
 DOMAIN, www.hostbuf.com, REJECT
 DOMAIN, backup.www.hostbuf.com, REJECT
 DOMAIN, www.youtusoft.com, REJECT
@@ -56,4 +14,3 @@ DOMAIN, tcpspeed.com, REJECT
 DOMAIN, www.wn1998.com, REJECT
 DOMAIN, wn1998.com, REJECT
 DOMAIN, pwlt.wn1998.com, REJECT
-
