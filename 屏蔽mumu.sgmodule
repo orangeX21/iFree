@@ -2,7 +2,7 @@
 #!desc=屏蔽特定域名的访问。
 
 [Rule]
-DOMAIN,mumu.nie.netease.com, REJECT
+DOMAIN,mumu.nie.netease.com,REJECT
 DOMAIN,www.hostbuf.com,REJECT
 DOMAIN,backup.www.hostbuf.com,REJECT
 DOMAIN,www.youtusoft.com,REJECT
