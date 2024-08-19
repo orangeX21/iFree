@@ -3,6 +3,7 @@
 
 
 [Rule]
+DOMAIN, api.adguard.org, REJECT
 DOMAIN, mumu.nie.netease.com, REJECT
 DOMAIN, www.hostbuf.com, REJECT
 DOMAIN, backup.www.hostbuf.com, REJECT
