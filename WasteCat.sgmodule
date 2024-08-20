@@ -1,0 +1,10 @@
+#!name=拦截猫-垃圾短信电话拦截
+#!desc=一次性解锁，先开启规则，在进入软件即可！如果无效按[恢复购买]进行恢复！
+
+
+[Script]
+WasteCat = type=http-response, pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/WasteCat.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
+
