@@ -1,8 +1,9 @@
 # 广告列表 adblock rules
 # 内容：EasyList列表，只包含ABP中的 EasyList 内容
 # 来源：https://easylist-downloads.adblockplus.org/easylist.txt,https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
-# 更新：2024-08-24 21:10:03
-# 数量：38489条DOMAIN-SUFFIX,0008d6ba2e.com
+# 更新：2024-08-24 21:17:02
+# 数量：38489条
+DOMAIN-SUFFIX,0008d6ba2e.com
 DOMAIN-SUFFIX,0024ad98dd.com
 DOMAIN-SUFFIX,00d3ed994e.com
 DOMAIN-SUFFIX,00d84987c0.com
