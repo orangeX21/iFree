@@ -36675,8 +36675,8 @@ DOMAIN-SUFFIX,poozifahek.com
 DOMAIN-SUFFIX,popcash.net
 DOMAIN-SUFFIX,poperblocker.com
 DOMAIN-SUFFIX,popmyads.com
-DOMAIN-SUFFIXblockernow.com
-DOMAIN-SUFFIXsblocker.org
+DOMAIN-SUFFIX,blockernow.com
+DOMAIN-SUFFIX,sblocker.org
 DOMAIN-SUFFIX,powerpushtrafic.space
 DOMAIN-SUFFIX,ppqy.fun
 DOMAIN-SUFFIX,preparedfile.com
