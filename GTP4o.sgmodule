@@ -1,0 +1,11 @@
+#!name=GTP4o
+#!desc=GTP4o
+
+[Script]
+GTP4ohd = type=http-request, pattern=https://nichousha.sjrjyffs.top/api/img/aiSketch, script-path=https://raw.githubusercontent.com/pxx917144686/ios/master/rewrite/QuantumultX/GTP4ohd.js, requires-body=true, max-size=-1, timeout=60
+
+GTP4o = type=http-response, pattern=https://nichousha.sjrjyffs.top/api/app/user/getCurrentInfo, script-path=https://raw.githubusercontent.com/pxx917144686/ios/master/rewrite/QuantumultX/GTP4o.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% nichousha.sjrjyffs.top
+
