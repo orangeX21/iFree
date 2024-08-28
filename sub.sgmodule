@@ -1,8 +1,0 @@
-#!name=机场流量
-#!desc=复制该文件内容至本地模块 修改URL encode后的机场节点链接
-#!anthor=mieqq
-#!homepage=https://whatshub.top
-[Panel]
-Sub_info = script-name=Sub_info
-[Script]
-Sub_info = type=generic,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,argument=url=https://sub.sanfen018.xyz/api/v1/client/subscribe?token=3da9d8ca546892dea1abb9e48fb6ce03&flag=surge&reset_day=1&title=Subscription&icon=icloud.circle.fill&color=#0D918D
