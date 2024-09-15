@@ -1,0 +1,7 @@
+中国江苏南京 阿里云=vmess,47.122.64.13,29237,username=efc5b696-de16-4862-dcdc-89366c76b8af,vmess-aead=true,tls=false
+德国巴伐利亚纽伦堡=vmess,91.107.182.83,17388,username=4e260576-7851-4914-a359-390d28ffc952,vmess-aead=true,tls=false
+法国=vmess,194.146.44.75,33145,username=2c35059a-9ab6-486a-ced3-dd6f7966392a,vmess-aead=true,tls=false
+美国亚利桑那凤凰城=vmess,141.148.179.75,12651,username=185fbe7e-5e73-4505-8693-92df67f1cbb4,vmess-aead=true,tls=false
+美国加利福尼亚洛杉矶 Telus=vmess,142.171.151.113,39547,username=610e3282-300d-4ab2-ed2b-30505de91aa4,vmess-aead=true,tls=false
+美国加利福尼亚圣何塞=vmess,23.27.22.227,27392,username=d89dd490-8bd7-486a-d136-81b906d55094,vmess-aead=true,tls=false
+美国加利福尼亚圣何塞 Cloudinnovation=vmess,156.225.64.73,40829,username=f1882847-fc50-46c0-a548-15bd8988f4d0,vmess-aead=true,tls=false
