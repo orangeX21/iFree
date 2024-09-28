@@ -1,9 +1,0 @@
-#!name=网上国网
-#!desc=Private 网上国网.
-
-
-[Script]
-网上国网小组件数据更新接口 = type=http-request, pattern=^https?:\/\/api\.example\.com\/electricity\/bill\/all, script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.scriptable.js, requires-body=true, max-size=-1, timeout=60
-
-[MITM]
-hostname = %APPEND% api.example.com
