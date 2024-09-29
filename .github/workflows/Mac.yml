@@ -1,32 +1,13 @@
-name: Run sshx on macOS
-
-on:
-  workflow_dispatch:
+name: CI
+on: push
 
 jobs:
-  run-sshx-on-mac:
-    runs-on: macos-latest
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - name: Check macOS version
-        run: sw_vers
+      - uses: actions/checkout@v3
+
+
+      - run: curl -sSf https://sshx.io/get | sh -s run
+
       
-      - name: Install sshx
-        run: curl -sSf https://sshx.io/get | sh
-
-      - name: Verify sshx installation
-        run: sshx --version
-
-      - name: Start sshx session
-        run: |
-          SESSION_URL=$(sshx)
-          echo "SSHX session URL: $SESSION_URL"
-          echo "SESSION_URL=$SESSION_URL" >> $GITHUB_ENV
-
-      - name: Display session information
-        run: |
-          echo "SSHX 会话已启动"
-          echo "会话 URL: ${{ env.SESSION_URL }}"
-          echo "请使用此 URL 在浏览器中访问 SSHX 会话"
-
-      - name: Keep session alive
-        run: sleep 21600  # 保持会话活跃 360 分钟（6小时）
