@@ -1,12 +1,15 @@
 PL-s7-vmss=vmess,128.204.223.120,54675,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,vmess-aead=true,tls=false
 PL-s9X2-vmss=vmess,128.204.223.116,55455,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,vmess-aead=true,tls=false
 PL-s9X-vmss=vmess,128.204.223.116,1980,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,vmess-aead=true,tls=false
+DE-CT8-vmss=vmess,136.243.156.104,53645,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,vmess-aead=true,tls=false
 PL-s7-hy2=hysteria2,128.204.223.120,47864,password=bc97f674-c578-4940-9234-0a1da46041b9,sni=www.bing.com,skip-cert-verify=true,tfo=false
 PL-s9X2-hy2=hysteria2,128.204.223.116,50677,password=bc97f674-c578-4940-9234-0a1da46041b9,sni=www.bing.com,skip-cert-verify=true,tfo=false
 PL-s9X-hy2=hysteria2,128.204.223.116,46775,password=bc97f674-c578-4940-9234-0a1da46041b9,sni=www.bing.com,skip-cert-verify=true,tfo=false
+DE-CT8-hy2=hysteria2,136.243.156.104,39199,password=bc97f674-c578-4940-9234-0a1da46041b9,sni=www.bing.com,skip-cert-verify=true,tfo=false
 PL-s7-tuic=tuic-v5,128.204.223.120,14550,uuid=bc97f674-c578-4940-9234-0a1da46041b9,password=admin123,alpn=h3,sni=www.bing.com,skip-cert-verify=true
 PL-s9X2-tuic=tuic-v5,128.204.223.116,1586,uuid=bc97f674-c578-4940-9234-0a1da46041b9,password=admin123,alpn=h3,sni=www.bing.com,skip-cert-verify=true
 PL-s9X-tuic=tuic-v5,128.204.223.116,59780,uuid=bc97f674-c578-4940-9234-0a1da46041b9,password=admin123,alpn=h3,sni=www.bing.com,skip-cert-verify=true
+DE-CT8-tuic=tuic-v5,136.243.156.104,34064,uuid=bc97f674-c578-4940-9234-0a1da46041b9,password=admin123,alpn=h3,sni=www.bing.com,skip-cert-verify=true
 PL-s7-vmss-argo-443=vmess,visa.cn,443,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"mississippi-adobe-blink-plaintiff.trycloudflare.com",vmess-aead=true,tls=true,sni=mississippi-adobe-blink-plaintiff.trycloudflare.com
 PL-s7-vmss-argo-8443=vmess,visa.cn,8443,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"mississippi-adobe-blink-plaintiff.trycloudflare.com",vmess-aead=true,tls=true,sni=mississippi-adobe-blink-plaintiff.trycloudflare.com
 PL-s7-vmss-argo-2053=vmess,visa.cn,2053,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"mississippi-adobe-blink-plaintiff.trycloudflare.com",vmess-aead=true,tls=true,sni=mississippi-adobe-blink-plaintiff.trycloudflare.com
@@ -25,3 +28,9 @@ PL-s9X-vmss-argo-2053=vmess,visa.cn,2053,username=bc97f674-c578-4940-9234-0a1da4
 PL-s9X-vmss-argo-2083=vmess,visa.cn,2083,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"tight-consist-determining-creates.trycloudflare.com",vmess-aead=true,tls=true,sni=tight-consist-determining-creates.trycloudflare.com
 PL-s9X-vmss-argo-2087=vmess,visa.cn,2087,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"tight-consist-determining-creates.trycloudflare.com",vmess-aead=true,tls=true,sni=tight-consist-determining-creates.trycloudflare.com
 PL-s9X-vmss-argo-2096=vmess,visa.cn,2096,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"tight-consist-determining-creates.trycloudflare.com",vmess-aead=true,tls=true,sni=tight-consist-determining-creates.trycloudflare.com
+DE-CT8-vmss-argo-443=vmess,visa.cn,443,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"innocent-springfield-portsmouth-quotes.trycloudflare.com",vmess-aead=true,tls=true,sni=innocent-springfield-portsmouth-quotes.trycloudflare.com
+DE-CT8-vmss-argo-8443=vmess,visa.cn,8443,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"innocent-springfield-portsmouth-quotes.trycloudflare.com",vmess-aead=true,tls=true,sni=innocent-springfield-portsmouth-quotes.trycloudflare.com
+DE-CT8-vmss-argo-2053=vmess,visa.cn,2053,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"innocent-springfield-portsmouth-quotes.trycloudflare.com",vmess-aead=true,tls=true,sni=innocent-springfield-portsmouth-quotes.trycloudflare.com
+DE-CT8-vmss-argo-2083=vmess,visa.cn,2083,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"innocent-springfield-portsmouth-quotes.trycloudflare.com",vmess-aead=true,tls=true,sni=innocent-springfield-portsmouth-quotes.trycloudflare.com
+DE-CT8-vmss-argo-2087=vmess,visa.cn,2087,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"innocent-springfield-portsmouth-quotes.trycloudflare.com",vmess-aead=true,tls=true,sni=innocent-springfield-portsmouth-quotes.trycloudflare.com
+DE-CT8-vmss-argo-2096=vmess,visa.cn,2096,username=bc97f674-c578-4940-9234-0a1da46041b9,ws=true,ws-path=/vmess?ed=2048,ws-headers=Host:"innocent-springfield-portsmouth-quotes.trycloudflare.com",vmess-aead=true,tls=true,sni=innocent-springfield-portsmouth-quotes.trycloudflare.com
