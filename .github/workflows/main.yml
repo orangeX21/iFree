@@ -3,7 +3,7 @@ on: push
 
 jobs:
   build:
-    runs-on: debain-latest
+    runs-on: ununtu-latest
     steps:
       - uses: actions/checkout@v3
 
