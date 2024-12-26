@@ -1,0 +1,29 @@
+// 修复 Object.defieroperty 的拼写错误
+Object.defineProperty(exports, "__esModule", { value: true });
+
+// 然后继续使用这个 Object.defineProperty 来定义其他属性 
+
+initialize() {
+  (0, pluginApi.withPluginApi)("0.8", api => {
+    api.decorateCooked(elem => {
+      // 添加日志查看 elem 参数
+      console.log("decorateCooked called with elem:", elem);
+      
+      const links = [...elem[0].querySelectorAll("a")];
+      // 添加日志查看找到的链接
+      console.log("Found links:", links);
+      
+      if (!links.length) return;
+      
+      links.filter(link => {
+        // 添加日志查看每个链接的 hostname
+        console.log("Link hostname:", link.hostname);
+        return "linux.do" !== link.hostname;
+      }).forEach(link => {
+        link.classList.add("external-link");
+        // 添加日志确认类添加成功
+        console.log("Added external-link class to:", link.href);
+      });
+    }, { id: "external-link-decorator" });
+  });
+}
