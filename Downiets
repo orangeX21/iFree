@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "response": {
+    "base_prices": {
+      "USD": 19.99,
+      "GBP": 15.99,
+      "EUR": 18.99,
+      "CNY": 99,
+      "CZK": 350,
+      "UAH": 300
+    },
+    "checkout_secret_key": "hadaui",
+    "current_prices": {
+      "USD": 19.99,
+      "GBP": 15.99,
+      "EUR": 18.99,
+      "CNY": 99,
+      "CZK": 350,
+      "UAH": 300
+    },
+    "discount_percentage": {
+      "USD": 0,
+      "GBP": 0,
+      "EUR": 0,
+      "CNY": 0,
+      "CZK": 0,
+      "UAH": 0
+    },
+    "discount_value": {
+      "USD": 0,
+      "GBP": 0,
+      "EUR": 0,
+      "CNY": 0,
+      "CZK": 0,
+      "UAH": 0
+    },
+    "image": "https://paddle.s3.amazonaws.com/user/156/RwuhMg2ReP48DrL6XTqg_Icon-MacOS-512x512%402x.png",
+    "name": "Downie 4",
+    "payment_url": "https://pay.paddle.com/checkout/framework/583749",
+    "trial": {
+      "text": "Thanks for downloading a trial of Downie 4! We hope you enjoy it.",
+      "duration": 10
+    },
+    "type": "sdk-product",
+    "vendor_name": "Charlie Monroe Software"
+  },
+  "signature": "4Sny0knLadPEC8JL54yn0kdmsQwEZNmd7Th7ulUeC7M="
+}

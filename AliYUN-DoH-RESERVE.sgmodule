@@ -1,0 +1,5 @@
+#!name=AliYUN-DoH-RESERVE
+#!desc=Private DNS.
+
+[General]
+doh-server = https://147857.alidns.com/dns-query

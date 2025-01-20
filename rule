@@ -1,0 +1,10 @@
+DOMAIN,www.hostbuf.com,REJECT
+DOMAIN,backup.www.hostbuf.com,REJECT
+DOMAIN,www.youtusoft.com,REJECT
+DOMAIN,youtusoft.com,REJECT
+DOMAIN,hostbuf.com,REJECT
+DOMAIN,dkys.org,REJECT
+DOMAIN,tcpspeed.com,REJECT
+DOMAIN,www.wn1998.com,REJECT
+DOMAIN,wn1998.com,REJECT
+DOMAIN,pwlt.wn1998.com,REJECT

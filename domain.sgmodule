@@ -1,0 +1,84 @@
+#!name=屏蔽特定域名的访问。
+#!desc=屏蔽特定域名的访问。
+
+[Rule]
+
+
+# #!name=屏蔽特定域名的访问。
+#!desc=屏蔽特定域名的访问。
+# ---------- parallels ---------- START ----------
+
+DOMAIN-SUFFIX,update.parallels.com,REJECT
+DOMAIN-SUFFIX,desktop.parallels.com,REJECT
+DOMAIN-SUFFIX,update.parallels.com.cdn.cloudflare.net,REJECT
+DOMAIN-SUFFIX,desktop.parallels.com.cdn.cloudflare.net,REJECT
+DOMAIN-SUFFIX,www.parallels.cn,REJECT
+DOMAIN-SUFFIX,www.parallels.com,REJECT
+DOMAIN-SUFFIX,www.parallels.de,REJECT
+DOMAIN-SUFFIX,www.parallels.es,REJECT
+DOMAIN-SUFFIX,www.parallels.fr,REJECT
+DOMAIN-SUFFIX,www.parallels.nl,REJECT
+DOMAIN-SUFFIX,www.parallels.pt,REJECT
+DOMAIN-SUFFIX,www.parallels.ru,REJECT
+DOMAIN-SUFFIX,www.parallelskorea.com,REJECT
+DOMAIN-SUFFIX,reportus.parallels.com,REJECT
+DOMAIN-SUFFIX,parallels.cn,REJECT
+DOMAIN-SUFFIX,parallels.com,REJECT
+DOMAIN-SUFFIX,parallels.de,REJECT
+DOMAIN-SUFFIX,parallels.es,REJECT
+DOMAIN-SUFFIX,parallels.fr,REJECT
+DOMAIN-SUFFIX,parallels.nl,REJECT
+DOMAIN-SUFFIX,parallels.pt,REJECT
+DOMAIN-SUFFIX,parallels.ru,REJECT
+DOMAIN-SUFFIX,parallelskorea.com,REJECT
+DOMAIN-SUFFIX,pax-manager.myparallels.com,REJECT
+DOMAIN-SUFFIX,myparallels.com,REJECT
+DOMAIN-SUFFIX,my.parallels.com,REJECT
+
+# ---------- parallels ---------- END ----------
+
+# ---------- 禁止特定域名访问 ---------- START ----------
+
+DOMAIN, api.adguard.org, REJECT
+DOMAIN, v3.paddleapi.com, REJECT
+
+# ---------- MUMU ---------- END ----------
+
+DOMAIN, mumu.nie.netease.com, REJECT
+# ---------- MUMU ---------- END ----------
+
+
+# ---------- hostbuf ---------- START ----------
+
+DOMAIN, www.hostbuf.com, REJECT
+DOMAIN, backup.www.hostbuf.com, REJECT
+DOMAIN, www.youtusoft.com, REJECT
+DOMAIN, youtusoft.com, REJECT
+DOMAIN, hostbuf.com, REJECT
+DOMAIN, dkys.org, REJECT
+DOMAIN, tcpspeed.com, REJECT
+DOMAIN, www.wn1998.com, REJECT
+DOMAIN, wn1998.com, REJECT
+DOMAIN, pwlt.wn1998.com, REJECT
+SRC-IP,101.32.72.254,REJECT
+SRC-IP,45.56.98.223,REJECT
+SRC-IP,121.40.235.65,REJECT
+SRC-IP,185.107.56.192,REJECT
+SRC-IP,185.107.56.54,REJECT
+SRC-IP,185.107.56.53,REJECT
+SRC-IP,74.63.241.25,REJECT
+SRC-IP,74.63.241.19,REJECT
+SRC-IP,199.115.116.216,REJECT
+SRC-IP,82.192.82.228,REJECT
+SRC-IP,82.192.82.226,REJECT
+SRC-IP,207.244.65.58,REJECT
+SRC-IP,69.162.95.4,REJECT
+SRC-IP,69.162.95.3,REJECT
+SRC-IP,37.48.65.155,REJECT
+SRC-IP,37.48.65.145,REJECT
+SRC-IP,37.48.65.153,REJECT
+SRC-IP,47.76.185.223,REJECT
+SRC-IP,3.33.243.145,REJECT
+SRC-IP,15.197.204.56,REJECT
+SRC-IP,162.210.199.85,REJECT
+SRC-IP,162.210.196.168,REJECT
